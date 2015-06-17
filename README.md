@@ -25,7 +25,7 @@ The variable names ("feature.txt") are read into the object "feat". A vector ("c
 Descriptive activity names are read from "activity_labels.txt" and are used as factor levels for the activity column in the dataset.
 
 4. It labels the dataset with descriptive variable names:
-The descriptive variable names have already been read into the vector "feat" in step 2. They are adapted to R naming standards by removing parentheses and replacing minus signs with "_". The column names of the dataset are defined as "Subject" and "Activity" for the first two columns plus the relevant subset of measurement variable names from the "feat" vector.
+The descriptive variable names have been read into the object "feat" in step 2. They are adapted to R naming standards by removing parentheses and replacing minus signs with "_". The column names of the dataset are defined as "Subject" and "Activity" for the first two columns plus the relevant subset of measurement variable names from the "feat" vector.
 
 5. It creates an independent tidy dataset with the average of each variable for each activity and each subject:
 The "dplyr" package is used to group the dataset by subject and activity and to produce a table indicating the mean of each variable for each activity and each subject using "summarise_each". The resulting table is written as "tidy_dataset.txt.".

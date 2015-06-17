@@ -4,7 +4,7 @@ This is the repo for my submission of the course project of "Getting and Cleanin
 1. This README.md
 2. The R script "run_analysis.R"
 3. The tidy dataset "tidy_dataset.txt" as the product of the script
-4. The "codebook.md" which describes the variables of the tidy dataset.
+4. The "CodeBook.md" which describes the variables of the tidy dataset.
 
 ## How to correctly read the dataset in R
 Use the following command to correctly read the tidy dataset in R:

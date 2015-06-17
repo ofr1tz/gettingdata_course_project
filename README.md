@@ -7,7 +7,7 @@ This is the repo for my submission of the course project of "Getting and Cleanin
 4. The "codebook.md" which describes the variables of the tidy dataset.
 
 ## How to correctly read the dataset in R
-Use the following command to correctly read tidy dataset in R:
+Use the following command to correctly read the tidy dataset in R:
 read.table("tidy_dataset.txt", header=T)
 
 ## How the script works
